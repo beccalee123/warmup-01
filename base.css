@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body > header, body > footer {
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+}
+
+main > section {
+  background-color: pink;
+}
+
+main > aside {
+  background-color: lightgreen;
+}
+
+main > nav {
+  background-color: aquamarine;
+}
+
+header {
+  background-color: blueviolet;
+}
+
+footer {
+  background-color: violet
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
